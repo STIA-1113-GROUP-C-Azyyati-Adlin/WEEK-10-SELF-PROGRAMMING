@@ -1,0 +1,31 @@
+package SelfProgramming;
+
+public class SalesArray {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		double sales[]=new double[5];  
+		int index; 
+		double sum, avg;
+		
+		sales[0]=10.00;
+		sales[1]=20.00;
+		sales[2]=40.00;
+		sales[3]=60.00;
+		sales[4]=80.00;
+		
+		sum = sales[0]+sales[1]+sales[2]+sales[3]+sales[4];
+		
+		for(index = 0;index < sales.length;index++)//length is the property of array  
+		System.out.println(sales[index]);  
+		System.out.println("The sum is " +sum);
+
+		if (sales.length != 0) {
+			avg = sum / sales.length;
+		}
+		else {
+			avg = 0.0;
+		}
+		System.out.println("The average is " +avg);
+	}
+}
