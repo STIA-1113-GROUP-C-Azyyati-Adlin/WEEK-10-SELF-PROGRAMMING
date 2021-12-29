@@ -1,0 +1,25 @@
+Print the value of number[0]
+-3
+Print the value of number[1]
+-2
+Print the value of number[2]
+-1
+Print the value of number[3]
+0
+Print the value of number[4]
+1
+Print the value of number[5]
+2
+Print the value of number[6]
+3
+Print the value of number[7]
+4
+Print the value of number[8]
+5
+Print the value of number[9]
+6
+Positive : 6
+Negative : 3
+Zero : 1
+odd : 5
+even : 5
